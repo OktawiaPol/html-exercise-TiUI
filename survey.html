@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=„UTF-8” />
+        <title>Survey</title>
+        <meta name=„keywords” content=„Survey” />
+        <meta name=„description” content=„The task for the course” />
+        <meta name=„author” content=„Oktawia Polczynska” />
+        <meta name=„robots” content=„index, follow” />
+    </head>
+    <body>
+
+        <p><a href="index.html">Main page</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a> | <a href="survey.html">Survey</a> | <a href="reminder.html">Reminder</a></p>
+        <header><h1>Survey about the user </h1></header>
+        <p>Please tell me something about <U>yourself</U>!</p>
+        <form method="post" action="">
+			<b>Name</b> <input type="text" name="name" /><br /><br />
+			<b>Sex</b> <br /><br />
+            <input type="radio" name="Male" />Male<br />
+            <input type="radio" name="Female" />Female<br /><br />
+            <label for="cars"><b>Where are you from?</b></label>
+            <select id="continents" name="continent" form="continentform">
+                <option value="Afrika">Afrika</option>
+                <option value="Asia">Asia</option>
+                <option value="Australia">Australia and Oceania</option>
+                <option value="Europe">Europe</option>
+                <option value="North">North America</option>
+                <option value="South">South America</option>
+            </select><br /><br />
+			<b>Favourite food</b> <textarea name="msg"></textarea><br /><br />
+			<input type="button" name="submit" value="Submit now" />
+
+        <footer style="color:darkgrey">This page belongs to Oktawia Połczyńska</footer>
+
+    </body>
+</html>
